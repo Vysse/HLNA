@@ -56,9 +56,12 @@ const getSteamModData = new Promise((resolve, reject) => {
                     imageURL: mod.preview_url,
                     patchNotesURL: `https://www.steamcommunity.com/sharedfiles/filedetails/changelog/${mod.publishedfileid}`,
                     lastUpdated: mod.time_updated,
-                    lastUpdatedFormatted:
-                      new Date(mod.time_updated * 1000).toLocaleString() +
-                      " (Central)",
+                    lastUpdatedFormatted: new Date(
+                      mod.time_updated * 1000
+                    ).toLocaleString(
+                      config.DateTime.locale,
+                      config.DateTime.options
+                    ),
                     authorname: authorDetails.personaname,
                     authorimage: authorDetails.avatarmedium,
                   });
