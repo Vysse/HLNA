@@ -1,0 +1,88 @@
+{
+  "config": {
+    "Discord": {
+      "token": ""
+    },
+    "SteamModInfo": {
+      "discordChannelID": "",
+      "steamAPIKey": "",
+      "collectionID": "",
+      "modCheckCron": "*/5 * * * *"
+    },
+    "DonateLinks": [
+      {
+        "modID": "1295978823",
+        "donateURL": "https://www.paypal.me/callusdarklore"
+      },
+      {
+        "modID": "1609138312",
+        "donateURL": "https://www.patreon.com/DinoStorage"
+      },
+      {
+        "modID": "1270181453",
+        "donateURL": "https://www.patreon.com/user?u=321022"
+      },
+      {
+        "modID": "1565015734",
+        "donateURL": "https://www.patreon.com/user?u=321022"
+      },
+      {
+        "modID": "741203089",
+        "donateURL": "https://www.patreon.com/ecoModsGames"
+      },
+      {
+        "modID": "816908578",
+        "donateURL": "https://www.patreon.com/ecoModsGames"
+      },
+      {
+        "modID": "747539326",
+        "donateURL": "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=S3WQNNSVY8VAL"
+      },
+      {
+        "modID": "873749349",
+        "donateURL": "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=S3WQNNSVY8VAL"
+      },
+      {
+        "modID": "873746971",
+        "donateURL": "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=S3WQNNSVY8VAL"
+      },
+      {
+        "modID": "2357644511",
+        "donateURL": "https://www.patreon.com/MarniiMods"
+      },
+      {
+        "modID": "2480160888",
+        "donateURL": "https://www.paypal.com/paypalme/gottcomputerproblems"
+      },
+      {
+        "modID": "898049820",
+        "donateURL": "https://www.patreon.com/ghazlawl"
+      },
+      {
+        "modID": "1404697612",
+        "donateURL": "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=62MYXSBT75D4E"
+      },
+      {
+        "modID": "889745138",
+        "donateURL": "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=62MYXSBT75D4E"
+      }
+    ],
+    "DateTime": {
+      "locale": "en-US",
+      "options": {
+        "timeZone": "CST",
+        "hour12": true,
+        "hourCycle": "h12",
+        "formatMatcher": "basic",
+        "weekday": "short",
+        "year": "2-digit",
+        "month": "2-digit",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "second": "2-digit",
+        "timeZZoneName": "long"
+      }
+    }
+  }
+}
