@@ -18,7 +18,7 @@ client.login(config.Discord.token);
 
 //Check each mod from Collection every minute
 schedule.scheduleJob(config.SteamModInfo.modCheckCron, () => {
-  if (ready) {
+  if (ready && config.ModUpdateDetailsEnabled) {
     getSteamModData
       .then((results) => {
         let modsList = results;
