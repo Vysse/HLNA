@@ -1,7 +1,8 @@
+const path = require("path");
 let config;
-try {
-  config = require("../dev.config.json");
-} catch (error) {
-  config = require("../config.json");
+if (process.execPath.includes("node")) {
+  config = require(path.join(__dirname, "..", "/dev.config.json"));
+} else {
+  config = require(path.join(process.execPath, "../", "./config.json"));
 }
 module.exports = config;

@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-let { config } = require("../config/config");
+const config = require("../config/config");
 
 let modEmbed = (client, mod) => {
   const newEmbed = new Discord.MessageEmbed();

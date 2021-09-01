@@ -1,4 +1,4 @@
-const { config } = require("../config/config");
+const config = require("../config/config");
 let clearChannelByID = (client, messagesToDelete) => {
   const foundChannel = client.channels.cache.find((channel) => {
     return channel.id == config.SteamModInfo.discordChannelID;

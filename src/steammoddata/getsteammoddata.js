@@ -1,4 +1,4 @@
-const { config } = require("../config/config");
+const config = require("../config/config");
 const axios = require("axios");
 const FormData = require("form-data");
 const appendSteamAPIKey = (formData) => {
